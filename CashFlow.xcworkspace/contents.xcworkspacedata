@@ -2,9 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:CashFlow BE/CashFlow BE.xcodeproj">
+      location = "group:CashFlow-FE/CashFlow-FE.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:CashFlow FE/CashFlow FE.xcodeproj">
+      location = "group:Shared">
+   </FileRef>
+   <FileRef
+      location = "group:CashFlow-BE">
    </FileRef>
 </Workspace>
