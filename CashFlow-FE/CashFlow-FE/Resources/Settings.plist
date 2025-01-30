@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>configuration</key>
+	<dict>
+		<key>release</key>
+		<dict>
+			<key>fbAppID</key>
+			<string>4591795750880350</string>
+			<key>fbClientToken</key>
+			<string>2de371eefa8ff346adde65cb54f22425</string>
+			<key>googleClientID</key>
+			<string>446966773084-48rn1pvdhhse9afiu3vqqgrnpvgt9qgs.apps.googleusercontent.com</string>
+		</dict>
+		<key>debug</key>
+		<dict>
+			<key>fbAppID</key>
+			<string>391823452679627</string>
+			<key>fbClientToken</key>
+			<string>4591795750880350</string>
+			<key>googleClientID</key>
+			<string>446966773084-fa2eo0ng14966hisvgkc7d05qf2b1v93.apps.googleusercontent.com</string>
+		</dict>
+	</dict>
+	<key>environment</key>
+	<dict>
+		<key>version</key>
+		<string>/api/v1.0</string>
+		<key>production</key>
+		<dict>
+			<key>server</key>
+			<string>https://1a42-5-77-196-202.ngrok-free.app</string>
+			<key>apiKey</key>
+			<string>LrxFhycWcDZCS2UF1mNMVTQuYuBP1fdW8ly45ZJnlEM=</string>
+			<key>githubURL</key>
+			<string>https://api.github.com</string>
+		</dict>
+		<key>testing</key>
+		<dict>
+			<key>server</key>
+			<string>https://a92d-178-160-198-154.ngrok-free.app</string>
+			<key>apiKey</key>
+			<string>wRcZdpLKdHd6xJz5iqmrwqfGV80Gl4IJfHSnku0CYzg=</string>
+			<key>githubURL</key>
+			<string>https://api.github.com</string>
+		</dict>
+	</dict>
+	<key>common</key>
+	<dict>
+		<key>surveymonkeyURL</key>
+		<string>https://www.surveymonkey.com</string>
+	</dict>
+</dict>
+</plist>

@@ -15,7 +15,7 @@ public protocol Product: Codable, Identifiable, Sendable {
     var thumbnail: String { get }
 }
 
-public struct ProductDTO: Product {
+public struct ProductDTO: Product, Hashable {
     public let id: UUID?
     public let title: String
     public let category: String
@@ -29,4 +29,6 @@ public struct ProductDTO: Product {
         self.category = category
         self.thumbnail = thumbnail
     }
+    
+    public static let mock = ProductDTO(id: UUID(uuidString: "0"), title: "iPhone", category: "Apple", price: 100, thumbnail: "")
 }

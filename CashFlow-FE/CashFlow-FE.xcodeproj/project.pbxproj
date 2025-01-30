@@ -7,26 +7,220 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		226EE9E52D270D6E00BC34E8 /* Foundation in Frameworks */ = {isa = PBXBuildFile; productRef = 226EE9E42D270D6E00BC34E8 /* Foundation */; };
-		226EE9E92D270DA400BC34E8 /* Feature in Frameworks */ = {isa = PBXBuildFile; productRef = 226EE9E82D270DA400BC34E8 /* Feature */; };
-		226EEA222D27174400BC34E8 /* Home in Frameworks */ = {isa = PBXBuildFile; productRef = 226EEA212D27174400BC34E8 /* Home */; };
+		226EEABC2D45949400BC34E8 /* Transaction in Frameworks */ = {isa = PBXBuildFile; productRef = 226EEABB2D45949400BC34E8 /* Transaction */; };
+		226EEC0B2D48FD1400BC34E8 /* Product in Frameworks */ = {isa = PBXBuildFile; productRef = 226EEC0A2D48FD1400BC34E8 /* Product */; };
+		226EECFD2D49360000BC34E8 /* Features in Frameworks */ = {isa = PBXBuildFile; productRef = 226EECFC2D49360000BC34E8 /* Features */; };
+		226EED2B2D4AABD500BC34E8 /* Home in Frameworks */ = {isa = PBXBuildFile; productRef = 226EEA212D27174400BC34E8 /* Home */; };
+		22E5F2AC2D4B8DB900F8B5FB /* Settings in Frameworks */ = {isa = PBXBuildFile; productRef = 22E5F2AB2D4B8DB900F8B5FB /* Settings */; };
+		22E5F2B22D4B90C500F8B5FB /* Product in Frameworks */ = {isa = PBXBuildFile; productRef = 226EEC0C2D48FD2700BC34E8 /* Product */; };
+		22E5F2F32D4B915800F8B5FB /* Home in Frameworks */ = {isa = PBXBuildFile; productRef = 226EEBFC2D48FCB200BC34E8 /* Home */; };
+		22E5F2F42D4B915800F8B5FB /* Detail in Frameworks */ = {isa = PBXBuildFile; productRef = 226EEBFD2D48FCB200BC34E8 /* Detail */; };
+		22E5F2F52D4B915800F8B5FB /* Home in Frameworks */ = {isa = PBXBuildFile; productRef = 226EEA872D458E4100BC34E8 /* Home */; };
+		22E5F2F62D4B915800F8B5FB /* Detail in Frameworks */ = {isa = PBXBuildFile; productRef = 226EEAAB2D45916900BC34E8 /* Detail */; };
+		22E5F3352D4B92D300F8B5FB /* Product in Frameworks */ = {isa = PBXBuildFile; productRef = 226EEB002D46C87100BC34E8 /* Product */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		226EE9492D25C55000BC34E8 /* CashFlow-FE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CashFlow-FE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		226EE9E12D27024400BC34E8 /* Modules */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Modules; sourceTree = "<group>"; };
-		226EEA132D27171900BC34E8 /* HomeFeatureApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeFeatureApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		226EEA132D27171900BC34E8 /* HomeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		226EEA8F2D458E4100BC34E8 /* ProductDetailsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductDetailsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		226EEA952D458F0600BC34E8 /* TransactionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransactionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		226EEAEF2D45A01500BC34E8 /* SettingsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SettingsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		226EEC062D48FCB200BC34E8 /* ProductFeedApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductFeedApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		226EEA7F2D43E78900BC34E8 /* Exceptions for "CashFlow-FE" folder in "CashFlow-FE" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/Info.plist,
+			);
+			target = 226EE9482D25C55000BC34E8 /* CashFlow-FE */;
+		};
+		226EEB802D48C0E800BC34E8 /* Exceptions for "CashFlow-FE" folder in "HomeApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/Settings.plist,
+			);
+			target = 226EEA122D27171900BC34E8 /* HomeApp */;
+		};
+		226EEB812D48C0E800BC34E8 /* Exceptions for "CashFlow-FE" folder in "ProductDetailsApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/Settings.plist,
+			);
+			target = 226EEA862D458E4100BC34E8 /* ProductDetailsApp */;
+		};
+		226EEB822D48C0E800BC34E8 /* Exceptions for "CashFlow-FE" folder in "TransactionApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/Settings.plist,
+			);
+			target = 226EEA942D458F0600BC34E8 /* TransactionApp */;
+		};
+		226EEB832D48C0E800BC34E8 /* Exceptions for "CashFlow-FE" folder in "SettingsApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/Settings.plist,
+			);
+			target = 226EEAE62D45A01500BC34E8 /* SettingsApp */;
+		};
+		226EEBCD2D48CEF800BC34E8 /* Exceptions for "Transaction" folder in "TransactionApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 226EEA942D458F0600BC34E8 /* TransactionApp */;
+		};
+		226EEBD02D48FA2F00BC34E8 /* Exceptions for "Home" folder in "ProductDetailsApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				HomeApp.swift,
+				Info.plist,
+			);
+			target = 226EEA862D458E4100BC34E8 /* ProductDetailsApp */;
+		};
+		226EEBD12D48FA2F00BC34E8 /* Exceptions for "Home" folder in "SettingsApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				HomeApp.swift,
+				Info.plist,
+			);
+			target = 226EEAE62D45A01500BC34E8 /* SettingsApp */;
+		};
+		226EEC082D48FCB200BC34E8 /* Exceptions for "Home" folder in "ProductFeedApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				HomeApp.swift,
+				Info.plist,
+			);
+			target = 226EEBFB2D48FCB200BC34E8 /* ProductFeedApp */;
+		};
+		226EEC102D48FE8100BC34E8 /* Exceptions for "Home" folder in "HomeApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 226EEA122D27171900BC34E8 /* HomeApp */;
+		};
+		226EEC172D48FEDD00BC34E8 /* Exceptions for "CashFlow-FE" folder in "ProductFeedApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/Settings.plist,
+			);
+			target = 226EEBFB2D48FCB200BC34E8 /* ProductFeedApp */;
+		};
+		226EED242D4996EE00BC34E8 /* Exceptions for "Settings" folder in "HomeApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+				RootView.swift,
+				SettingsApp.swift,
+			);
+			target = 226EEA122D27171900BC34E8 /* HomeApp */;
+		};
+		226EED252D4996EE00BC34E8 /* Exceptions for "Settings" folder in "SettingsApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 226EEAE62D45A01500BC34E8 /* SettingsApp */;
+		};
+		226EED262D4996EE00BC34E8 /* Exceptions for "Settings" folder in "ProductFeedApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+				RootView.swift,
+				SettingsApp.swift,
+			);
+			target = 226EEBFB2D48FCB200BC34E8 /* ProductFeedApp */;
+		};
+		226EED272D4996EE00BC34E8 /* Exceptions for "Settings" folder in "ProductDetailsApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+				RootView.swift,
+				SettingsApp.swift,
+			);
+			target = 226EEA862D458E4100BC34E8 /* ProductDetailsApp */;
+		};
+		226EED292D4996EE00BC34E8 /* Exceptions for "ProductDetails" folder in "ProductDetailsApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ProductDetailsApp.swift,
+				RootView.swift,
+			);
+			target = 226EEA862D458E4100BC34E8 /* ProductDetailsApp */;
+		};
+		226EED2A2D4996EE00BC34E8 /* Exceptions for "ProductFeed" folder in "ProductFeedApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ProductFeedApp.swift,
+				RootView.swift,
+			);
+			target = 226EEBFB2D48FCB200BC34E8 /* ProductFeedApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		226EE9D52D26FEF300BC34E8 /* CashFlow-FE */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				226EEA7F2D43E78900BC34E8 /* Exceptions for "CashFlow-FE" folder in "CashFlow-FE" target */,
+				226EEB802D48C0E800BC34E8 /* Exceptions for "CashFlow-FE" folder in "HomeApp" target */,
+				226EEB822D48C0E800BC34E8 /* Exceptions for "CashFlow-FE" folder in "TransactionApp" target */,
+				226EEB832D48C0E800BC34E8 /* Exceptions for "CashFlow-FE" folder in "SettingsApp" target */,
+				226EEC172D48FEDD00BC34E8 /* Exceptions for "CashFlow-FE" folder in "ProductFeedApp" target */,
+				226EEB812D48C0E800BC34E8 /* Exceptions for "CashFlow-FE" folder in "ProductDetailsApp" target */,
+			);
 			path = "CashFlow-FE";
 			sourceTree = "<group>";
 		};
-		226EEA142D27171900BC34E8 /* HomeFeatureApp */ = {
+		226EEA962D458F0600BC34E8 /* Transaction */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HomeFeatureApp;
+			exceptions = (
+				226EEBCD2D48CEF800BC34E8 /* Exceptions for "Transaction" folder in "TransactionApp" target */,
+			);
+			path = Transaction;
+			sourceTree = "<group>";
+		};
+		226EEBCF2D48FA0800BC34E8 /* Home */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				226EEC102D48FE8100BC34E8 /* Exceptions for "Home" folder in "HomeApp" target */,
+				226EEBD12D48FA2F00BC34E8 /* Exceptions for "Home" folder in "SettingsApp" target */,
+				226EEC082D48FCB200BC34E8 /* Exceptions for "Home" folder in "ProductFeedApp" target */,
+				226EEBD02D48FA2F00BC34E8 /* Exceptions for "Home" folder in "ProductDetailsApp" target */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		226EED142D4996ED00BC34E8 /* Settings */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				226EED242D4996EE00BC34E8 /* Exceptions for "Settings" folder in "HomeApp" target */,
+				226EED252D4996EE00BC34E8 /* Exceptions for "Settings" folder in "SettingsApp" target */,
+				226EED262D4996EE00BC34E8 /* Exceptions for "Settings" folder in "ProductFeedApp" target */,
+				226EED272D4996EE00BC34E8 /* Exceptions for "Settings" folder in "ProductDetailsApp" target */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		226EED182D4996ED00BC34E8 /* ProductDetails */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				226EED292D4996EE00BC34E8 /* Exceptions for "ProductDetails" folder in "ProductDetailsApp" target */,
+			);
+			path = ProductDetails;
+			sourceTree = "<group>";
+		};
+		226EED1C2D4996ED00BC34E8 /* ProductFeed */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				226EED2A2D4996EE00BC34E8 /* Exceptions for "ProductFeed" folder in "ProductFeedApp" target */,
+			);
+			path = ProductFeed;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -36,8 +230,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				226EE9E92D270DA400BC34E8 /* Feature in Frameworks */,
-				226EE9E52D270D6E00BC34E8 /* Foundation in Frameworks */,
+				226EECFD2D49360000BC34E8 /* Features in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,7 +238,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				226EEA222D27174400BC34E8 /* Home in Frameworks */,
+				22E5F3352D4B92D300F8B5FB /* Product in Frameworks */,
+				226EED2B2D4AABD500BC34E8 /* Home in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226EEA892D458E4100BC34E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E5F2F62D4B915800F8B5FB /* Detail in Frameworks */,
+				22E5F2F52D4B915800F8B5FB /* Home in Frameworks */,
+				22E5F2B22D4B90C500F8B5FB /* Product in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226EEA922D458F0600BC34E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226EEABC2D45949400BC34E8 /* Transaction in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226EEAE92D45A01500BC34E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E5F2AC2D4B8DB900F8B5FB /* Settings in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226EEBFF2D48FCB200BC34E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E5F2F42D4B915800F8B5FB /* Detail in Frameworks */,
+				22E5F2F32D4B915800F8B5FB /* Home in Frameworks */,
+				226EEC0B2D48FD1400BC34E8 /* Product in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,7 +297,11 @@
 			isa = PBXGroup;
 			children = (
 				226EE9492D25C55000BC34E8 /* CashFlow-FE.app */,
-				226EEA132D27171900BC34E8 /* HomeFeatureApp.app */,
+				226EEA132D27171900BC34E8 /* HomeApp.app */,
+				226EEA8F2D458E4100BC34E8 /* ProductDetailsApp.app */,
+				226EEA952D458F0600BC34E8 /* TransactionApp.app */,
+				226EEAEF2D45A01500BC34E8 /* SettingsApp.app */,
+				226EEC062D48FCB200BC34E8 /* ProductFeedApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,7 +309,11 @@
 		226EE9EA2D2714E200BC34E8 /* FeatureApps */ = {
 			isa = PBXGroup;
 			children = (
-				226EEA142D27171900BC34E8 /* HomeFeatureApp */,
+				226EED142D4996ED00BC34E8 /* Settings */,
+				226EED182D4996ED00BC34E8 /* ProductDetails */,
+				226EED1C2D4996ED00BC34E8 /* ProductFeed */,
+				226EEBCF2D48FA0800BC34E8 /* Home */,
+				226EEA962D458F0600BC34E8 /* Transaction */,
 			);
 			path = FeatureApps;
 			sourceTree = "<group>";
@@ -107,16 +345,15 @@
 			);
 			name = "CashFlow-FE";
 			packageProductDependencies = (
-				226EE9E42D270D6E00BC34E8 /* Foundation */,
-				226EE9E82D270DA400BC34E8 /* Feature */,
+				226EECFC2D49360000BC34E8 /* Features */,
 			);
 			productName = "CashFlow FE";
 			productReference = 226EE9492D25C55000BC34E8 /* CashFlow-FE.app */;
 			productType = "com.apple.product-type.application";
 		};
-		226EEA122D27171900BC34E8 /* HomeFeatureApp */ = {
+		226EEA122D27171900BC34E8 /* HomeApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 226EEA1E2D27171B00BC34E8 /* Build configuration list for PBXNativeTarget "HomeFeatureApp" */;
+			buildConfigurationList = 226EEA1E2D27171B00BC34E8 /* Build configuration list for PBXNativeTarget "HomeApp" */;
 			buildPhases = (
 				226EEA0F2D27171900BC34E8 /* Sources */,
 				226EEA102D27171900BC34E8 /* Frameworks */,
@@ -127,14 +364,116 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				226EEA142D27171900BC34E8 /* HomeFeatureApp */,
+				226EEBCF2D48FA0800BC34E8 /* Home */,
+				226EED142D4996ED00BC34E8 /* Settings */,
 			);
-			name = HomeFeatureApp;
+			name = HomeApp;
 			packageProductDependencies = (
 				226EEA212D27174400BC34E8 /* Home */,
+				226EEB002D46C87100BC34E8 /* Product */,
 			);
 			productName = HomeFeatureApp;
-			productReference = 226EEA132D27171900BC34E8 /* HomeFeatureApp.app */;
+			productReference = 226EEA132D27171900BC34E8 /* HomeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		226EEA862D458E4100BC34E8 /* ProductDetailsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 226EEA8C2D458E4100BC34E8 /* Build configuration list for PBXNativeTarget "ProductDetailsApp" */;
+			buildPhases = (
+				226EEA882D458E4100BC34E8 /* Sources */,
+				226EEA892D458E4100BC34E8 /* Frameworks */,
+				226EEA8B2D458E4100BC34E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				226EEBCF2D48FA0800BC34E8 /* Home */,
+				226EED142D4996ED00BC34E8 /* Settings */,
+			);
+			name = ProductDetailsApp;
+			packageProductDependencies = (
+				226EEA872D458E4100BC34E8 /* Home */,
+				226EEAAB2D45916900BC34E8 /* Detail */,
+				226EEC0C2D48FD2700BC34E8 /* Product */,
+			);
+			productName = HomeFeatureApp;
+			productReference = 226EEA8F2D458E4100BC34E8 /* ProductDetailsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		226EEA942D458F0600BC34E8 /* TransactionApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 226EEAA02D458F0800BC34E8 /* Build configuration list for PBXNativeTarget "TransactionApp" */;
+			buildPhases = (
+				226EEA912D458F0600BC34E8 /* Sources */,
+				226EEA922D458F0600BC34E8 /* Frameworks */,
+				226EEA932D458F0600BC34E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				226EEA962D458F0600BC34E8 /* Transaction */,
+			);
+			name = TransactionApp;
+			packageProductDependencies = (
+				226EEABB2D45949400BC34E8 /* Transaction */,
+			);
+			productName = TransactionApp;
+			productReference = 226EEA952D458F0600BC34E8 /* TransactionApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		226EEAE62D45A01500BC34E8 /* SettingsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 226EEAEC2D45A01500BC34E8 /* Build configuration list for PBXNativeTarget "SettingsApp" */;
+			buildPhases = (
+				226EEAE82D45A01500BC34E8 /* Sources */,
+				226EEAE92D45A01500BC34E8 /* Frameworks */,
+				226EEAEB2D45A01500BC34E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				226EEBCF2D48FA0800BC34E8 /* Home */,
+				226EED142D4996ED00BC34E8 /* Settings */,
+			);
+			name = SettingsApp;
+			packageProductDependencies = (
+				226EEAF62D45A0C000BC34E8 /* Github */,
+				22E5F2AB2D4B8DB900F8B5FB /* Settings */,
+			);
+			productName = HomeFeatureApp;
+			productReference = 226EEAEF2D45A01500BC34E8 /* SettingsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		226EEBFB2D48FCB200BC34E8 /* ProductFeedApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 226EEC032D48FCB200BC34E8 /* Build configuration list for PBXNativeTarget "ProductFeedApp" */;
+			buildPhases = (
+				226EEBFE2D48FCB200BC34E8 /* Sources */,
+				226EEBFF2D48FCB200BC34E8 /* Frameworks */,
+				226EEC022D48FCB200BC34E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				226EEBCF2D48FA0800BC34E8 /* Home */,
+				226EED142D4996ED00BC34E8 /* Settings */,
+			);
+			name = ProductFeedApp;
+			packageProductDependencies = (
+				226EEBFC2D48FCB200BC34E8 /* Home */,
+				226EEBFD2D48FCB200BC34E8 /* Detail */,
+				226EEC0A2D48FD1400BC34E8 /* Product */,
+			);
+			productName = HomeFeatureApp;
+			productReference = 226EEC062D48FCB200BC34E8 /* ProductFeedApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -151,6 +490,12 @@
 						CreatedOnToolsVersion = 16.2;
 					};
 					226EEA122D27171900BC34E8 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					226EEA862D458E4100BC34E8 = {
+						LastSwiftMigration = 1620;
+					};
+					226EEA942D458F0600BC34E8 = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
@@ -170,7 +515,11 @@
 			projectRoot = "";
 			targets = (
 				226EE9482D25C55000BC34E8 /* CashFlow-FE */,
-				226EEA122D27171900BC34E8 /* HomeFeatureApp */,
+				226EEA122D27171900BC34E8 /* HomeApp */,
+				226EEA942D458F0600BC34E8 /* TransactionApp */,
+				226EEAE62D45A01500BC34E8 /* SettingsApp */,
+				226EEBFB2D48FCB200BC34E8 /* ProductFeedApp */,
+				226EEA862D458E4100BC34E8 /* ProductDetailsApp */,
 			);
 		};
 /* End PBXProject section */
@@ -190,6 +539,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		226EEA8B2D458E4100BC34E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226EEA932D458F0600BC34E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226EEAEB2D45A01500BC34E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226EEC022D48FCB200BC34E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -201,6 +578,34 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		226EEA0F2D27171900BC34E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226EEA882D458E4100BC34E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226EEA912D458F0600BC34E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226EEAE82D45A01500BC34E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226EEBFE2D48FCB200BC34E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -340,6 +745,7 @@
 				DEVELOPMENT_TEAM = 3J6F95N9T2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CashFlow-FE/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -369,6 +775,7 @@
 				DEVELOPMENT_TEAM = 3J6F95N9T2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CashFlow-FE/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -398,6 +805,7 @@
 				DEVELOPMENT_TEAM = 3J6F95N9T2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FeatureApps/Home/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -427,6 +835,253 @@
 				DEVELOPMENT_TEAM = 3J6F95N9T2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FeatureApps/Home/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arohak.HomeFeatureApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		226EEA8D2D458E4100BC34E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 3J6F95N9T2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FeatureApps/ProductDetails/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arohak.HomeFeatureApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		226EEA8E2D458E4100BC34E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 3J6F95N9T2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FeatureApps/ProductDetails/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arohak.HomeFeatureApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		226EEAA12D458F0800BC34E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 3J6F95N9T2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FeatureApps/Transaction/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arohak.TransactionApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		226EEAA22D458F0800BC34E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 3J6F95N9T2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FeatureApps/Transaction/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arohak.TransactionApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		226EEAED2D45A01500BC34E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 3J6F95N9T2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FeatureApps/Settings/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arohak.SettingsFeatureApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		226EEAEE2D45A01500BC34E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 3J6F95N9T2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FeatureApps/Settings/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arohak.SettingsFeatureApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		226EEC042D48FCB200BC34E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 3J6F95N9T2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FeatureApps/ProductFeed/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arohak.HomeFeatureApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		226EEC052D48FCB200BC34E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 3J6F95N9T2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FeatureApps/ProductFeed/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -466,7 +1121,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		226EEA1E2D27171B00BC34E8 /* Build configuration list for PBXNativeTarget "HomeFeatureApp" */ = {
+		226EEA1E2D27171B00BC34E8 /* Build configuration list for PBXNativeTarget "HomeApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				226EEA1F2D27171B00BC34E8 /* Debug */,
@@ -475,20 +1130,92 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		226EEA8C2D458E4100BC34E8 /* Build configuration list for PBXNativeTarget "ProductDetailsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				226EEA8D2D458E4100BC34E8 /* Debug */,
+				226EEA8E2D458E4100BC34E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		226EEAA02D458F0800BC34E8 /* Build configuration list for PBXNativeTarget "TransactionApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				226EEAA12D458F0800BC34E8 /* Debug */,
+				226EEAA22D458F0800BC34E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		226EEAEC2D45A01500BC34E8 /* Build configuration list for PBXNativeTarget "SettingsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				226EEAED2D45A01500BC34E8 /* Debug */,
+				226EEAEE2D45A01500BC34E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		226EEC032D48FCB200BC34E8 /* Build configuration list for PBXNativeTarget "ProductFeedApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				226EEC042D48FCB200BC34E8 /* Debug */,
+				226EEC052D48FCB200BC34E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		226EE9E42D270D6E00BC34E8 /* Foundation */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Foundation;
-		};
-		226EE9E82D270DA400BC34E8 /* Feature */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Feature;
-		};
 		226EEA212D27174400BC34E8 /* Home */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Home;
+		};
+		226EEA872D458E4100BC34E8 /* Home */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Home;
+		};
+		226EEAAB2D45916900BC34E8 /* Detail */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Detail;
+		};
+		226EEABB2D45949400BC34E8 /* Transaction */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Transaction;
+		};
+		226EEAF62D45A0C000BC34E8 /* Github */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Github;
+		};
+		226EEB002D46C87100BC34E8 /* Product */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Product;
+		};
+		226EEBFC2D48FCB200BC34E8 /* Home */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Home;
+		};
+		226EEBFD2D48FCB200BC34E8 /* Detail */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Detail;
+		};
+		226EEC0A2D48FD1400BC34E8 /* Product */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Product;
+		};
+		226EEC0C2D48FD2700BC34E8 /* Product */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Product;
+		};
+		226EECFC2D49360000BC34E8 /* Features */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Features;
+		};
+		22E5F2AB2D4B8DB900F8B5FB /* Settings */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Settings;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

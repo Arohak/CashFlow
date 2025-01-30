@@ -28,6 +28,9 @@ final class Todo: Model, @unchecked Sendable {
 
     @Field(key: "title")
     var title: String
+    
+    @Field(key: "titles")
+    var titles: [String]
 
     init() { }
 

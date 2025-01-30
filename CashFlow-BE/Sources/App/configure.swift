@@ -31,6 +31,9 @@ public func configure(_ app: Application) async throws {
     app.migrations.add(CreateTodo())
     app.migrations.add(CreateProduct())
     
+    app.migrations.add(CreateCategory())
+    app.migrations.add(CreateTransaction())
+
     if app.environment == .development {
         try await app.autoMigrate().get()
     }

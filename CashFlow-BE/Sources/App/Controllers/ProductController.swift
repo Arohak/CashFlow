@@ -28,25 +28,25 @@ struct ProductController: RouteCollection {
     
     @Sendable
     func create(req: Request) async throws -> ProductDTO {
-        let product = try req.content.decode(ProductDTO.self).toModel
-        try await product.save(on: req.db)
-        return product.toDTO
+        let model = try req.content.decode(ProductDTO.self).toModel
+        try await model.save(on: req.db)
+        return model.toDTO
     }
 
     @Sendable
     func item(req: Request) async throws -> ProductDTO {
-        guard let product = try await ProductModel.find(req.parameters.get("productID"), on: req.db) else {
+        guard let model = try await ProductModel.find(req.parameters.get("productID"), on: req.db) else {
             throw Abort(.notFound)
         }
-        return product.toDTO
+        return model.toDTO
     }
     
     @Sendable
     func delete(req: Request) async throws -> HTTPStatus {
-        guard let product = try await ProductModel.find(req.parameters.get("productID"), on: req.db) else {
+        guard let model = try await ProductModel.find(req.parameters.get("productID"), on: req.db) else {
             throw Abort(.notFound)
         }
-        try await product.delete(on: req.db)
+        try await model.delete(on: req.db)
         return .noContent
     }
 }

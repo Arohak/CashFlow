@@ -11,7 +11,7 @@ import SwiftUI
 struct Application: App {
     var body: some Scene {
         WindowGroup {
-            RootView()
+            RootView(container: .live)
         }
     }
 }

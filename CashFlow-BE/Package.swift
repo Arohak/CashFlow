@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "CashFlow-BE",
     platforms: [
-       .macOS(.v15)
+       .macOS(.v15), .iOS(.v17)
     ],
     dependencies: [
         // 💧 A server-side Swift web framework.
