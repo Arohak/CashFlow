@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  Configuration+Ext.swift
 //  Modules
 //
 //  Created by Ara Hakobyan on 1/28/25.

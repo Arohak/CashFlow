@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2231A8C72DDA603900932107 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2231A8C62DDA603900932107 /* README.md */; };
 		226EEABC2D45949400BC34E8 /* Transaction in Frameworks */ = {isa = PBXBuildFile; productRef = 226EEABB2D45949400BC34E8 /* Transaction */; };
 		226EEC0B2D48FD1400BC34E8 /* Product in Frameworks */ = {isa = PBXBuildFile; productRef = 226EEC0A2D48FD1400BC34E8 /* Product */; };
 		226EECFD2D49360000BC34E8 /* Features in Frameworks */ = {isa = PBXBuildFile; productRef = 226EECFC2D49360000BC34E8 /* Features */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2231A8C62DDA603900932107 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		226EE9492D25C55000BC34E8 /* CashFlow-FE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CashFlow-FE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		226EE9E12D27024400BC34E8 /* Modules */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Modules; sourceTree = "<group>"; };
 		226EEA132D27171900BC34E8 /* HomeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -285,6 +287,7 @@
 		226EE9402D25C55000BC34E8 = {
 			isa = PBXGroup;
 			children = (
+				2231A8C62DDA603900932107 /* README.md */,
 				226EE9E12D27024400BC34E8 /* Modules */,
 				226EE9D52D26FEF300BC34E8 /* CashFlow-FE */,
 				226EE9EA2D2714E200BC34E8 /* FeatureApps */,
@@ -443,7 +446,6 @@
 			);
 			name = SettingsApp;
 			packageProductDependencies = (
-				226EEAF62D45A0C000BC34E8 /* Github */,
 				22E5F2AB2D4B8DB900F8B5FB /* Settings */,
 			);
 			productName = HomeFeatureApp;
@@ -529,6 +531,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2231A8C72DDA603900932107 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1184,10 +1187,6 @@
 		226EEABB2D45949400BC34E8 /* Transaction */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Transaction;
-		};
-		226EEAF62D45A0C000BC34E8 /* Github */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Github;
 		};
 		226EEB002D46C87100BC34E8 /* Product */ = {
 			isa = XCSwiftPackageProductDependency;
