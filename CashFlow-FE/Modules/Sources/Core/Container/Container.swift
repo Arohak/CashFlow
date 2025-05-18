@@ -1,8 +1,8 @@
 //
 //  AppContainer.swift
-//  
+//  CashFlow FE
 //
-//  Created by Artem Kvasnetskyi on 19.12.2022.
+//  Created by Ara Hakobyan on 1/1/25.
 //
 
 import Networking
