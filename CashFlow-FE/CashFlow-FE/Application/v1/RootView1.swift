@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import MyNavigator
+import Router
 import Container
 
 struct ContentView: View {

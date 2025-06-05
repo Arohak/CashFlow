@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import Navigator
+import Router
 import Container
 import Shared
 

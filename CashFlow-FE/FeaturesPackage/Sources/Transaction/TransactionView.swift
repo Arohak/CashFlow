@@ -7,12 +7,11 @@
 
 import SwiftUI
 import Networking
-import MyNavigator
 import Shared
-import Navigator
+import Router
 
 public struct TransactionView: View {
-    @Environment(\.navigator) var navigator: Navigator
+    @Environment(\.navigator) var navigator: Router
 
     @State private var store: TransactionStore
     

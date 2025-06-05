@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "CorePackage",
+    name: "Core",
     defaultLocalization: "en",
     platforms: [
         .macOS(.v15), .iOS(.v17)
@@ -12,7 +12,7 @@ let package = Package(
     products: [
         .library(
             name: "Core",
-            targets: ["Container", "Networking", "MyNavigator"]),
+            targets: ["Container", "Networking", "Router", "Service"]),
         .library(
             name: "Container",
             targets: ["Container"]),
@@ -20,8 +20,11 @@ let package = Package(
             name: "Networking",
             targets: ["Networking"]),
         .library(
-            name: "MyNavigator",
-            targets: ["MyNavigator"]),
+            name: "Router",
+            targets: ["Router"]),
+        .library(
+            name: "Service",
+            targets: ["Service"]),
     ],
     dependencies: [
         .package(
@@ -48,8 +51,12 @@ let package = Package(
             path: "Sources/Networking"
         ),
         .target(
-            name: "MyNavigator",
-            path: "Sources/MyNavigator"
+            name: "Router",
+            path: "Sources/Router"
+        ),
+        .target(
+            name: "Service",
+            path: "Sources/Service"
         ),
     ]
 )

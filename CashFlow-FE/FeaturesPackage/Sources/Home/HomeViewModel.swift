@@ -6,7 +6,7 @@
 //
 
 import Combine
-import MyNavigator
+import Router
 import Networking
 import Observation
 import Shared
@@ -22,13 +22,13 @@ public protocol IHomeViewModel {
 @Observable
 public final class HomeViewModel: IHomeViewModel {
     private let service: ProductService
-    private let navigator: MyNavigator<Route>
+    private let navigator: Router<Route>
     
     public var products: [ProductDTO]?
     public var errorMessage: String?
     public var isLoading = false
     
-    public init(service: ProductService, navigator: MyNavigator<Route>) {
+    public init(service: ProductService, navigator: Router<Route>) {
         self.service = service
         self.navigator = navigator
     }

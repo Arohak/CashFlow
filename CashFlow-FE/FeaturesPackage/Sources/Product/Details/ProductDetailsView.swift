@@ -9,10 +9,10 @@ import SwiftUI
 import Views
 import Shared
 import Networking
-import Navigator
+import Router
 
 public struct ProductDetailsView: View {
-    @Environment(\.navigator) var navigator: Navigator
+    @Environment(\.navigator) var navigator: Router
 
     @State var store: ProductStore
 

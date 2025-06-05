@@ -6,10 +6,9 @@
 //
 
 import SwiftUI
-import Navigator
+import Router
 import Shared
 import Container
-import MyNavigator
 
 public struct ProductNavigationStack: View {
     @State private var destination: ProductDestinations?

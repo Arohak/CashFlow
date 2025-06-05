@@ -9,10 +9,10 @@ import SwiftUI
 import Shared
 import Views
 import Networking
-import Navigator
+import Router
 
 public struct HomeView<VM: IHomeViewModel>: View {
-    @Environment(\.navigator) var navigator: Navigator
+    @Environment(\.navigator) var navigator: Router
 
     @State var vm: VM
     

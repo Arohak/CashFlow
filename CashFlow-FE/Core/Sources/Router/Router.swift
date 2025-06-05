@@ -1,5 +1,5 @@
 //
-//  MyNavigator.swift
+//  Router.swift
 //  Modularization
 //
 //  Created by Ara Hakobyan on 3/29/24.
@@ -11,12 +11,12 @@ import SwiftUI
 
 @MainActor
 @Observable
-public final class MyNavigator<Route: Hashable> {
+public final class Router<Route: Hashable> {
     public var route = [Route]()
     public init() {}
 }
 
-public extension MyNavigator {
+public extension Router {
     func pop() {
         route.removeLast()
     }

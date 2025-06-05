@@ -7,7 +7,7 @@
 
 import UnidirectionalFlow
 import Networking
-import MyNavigator
+import Router
 
 typealias GithubStore = Store<GithubState, GithubAction>
 

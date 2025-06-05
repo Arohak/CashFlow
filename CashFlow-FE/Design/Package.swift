@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "DesignPackage",
+    name: "Design",
     defaultLocalization: "en",
     platforms: [
         .macOS(.v15), .iOS(.v17)
@@ -12,10 +12,16 @@ let package = Package(
     products: [
         .library(
             name: "Design",
-            targets: ["Views"]),
+            targets: ["Views", "Modifiers", "Resources"]),
         .library(
             name: "Views",
             targets: ["Views"]),
+        .library(
+            name: "Modifiers",
+            targets: ["Modifiers"]),
+        .library(
+            name: "Resources",
+            targets: ["Resources"]),
     ],
     dependencies: [
         // No external package dependencies for Views target itself based on original Modules/Package.swift
@@ -35,6 +41,16 @@ let package = Package(
                 // This might need adjustment if compilation errors appear later.
             ],
             path: "Sources/Views"
+        ),
+        .target(
+            name: "Modifiers",
+            dependencies: [],
+            path: "Sources/Modifiers"
+        ),
+        .target(
+            name: "Resources",
+            dependencies: [],
+            path: "Sources/Resources"
         )
     ]
 )

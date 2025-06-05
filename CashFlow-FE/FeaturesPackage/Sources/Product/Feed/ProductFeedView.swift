@@ -8,10 +8,10 @@
 import SwiftUI
 import Views
 import Networking
-import Navigator
+import Router
 
 public struct ProductFeedView: View {
-    @Environment(\.navigator) var navigator: Navigator
+    @Environment(\.navigator) var navigator: Router
 
     @State var store: ProductStore
 

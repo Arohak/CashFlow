@@ -27,17 +27,17 @@ let package = Package(
             url: "https://github.com/hmlongco/Navigator",
             .upToNextMajor(from: "0.9.9")
         ),
-        .package(path: "../CorePackage"),
-        .package(path: "../DesignPackage"),
+        .package(path: "../Core"),
+        .package(path: "../Design"),
     ],
     targets: [
         .target(
             name: "Home",
             dependencies: [
-                .product(name: "Container", package: "CorePackage"),
-                .product(name: "Networking", package: "CorePackage"),
-                .product(name: "MyNavigator", package: "CorePackage"),
-                .product(name: "Views", package: "DesignPackage"),
+                .product(name: "Container", package: "Core"),
+                .product(name: "Networking", package: "Core"),
+                .product(name: "Router", package: "Core"),
+                .product(name: "Views", package: "Design"),
                 .product(name: "Navigator", package: "Navigator")
             ],
             path: "Sources/Home"
@@ -45,10 +45,10 @@ let package = Package(
         .target(
             name: "Product",
             dependencies: [
-                .product(name: "Container", package: "CorePackage"),
-                .product(name: "Networking", package: "CorePackage"),
-                .product(name: "MyNavigator", package: "CorePackage"),
-                .product(name: "Views", package: "DesignPackage"),
+                .product(name: "Container", package: "Core"),
+                .product(name: "Networking", package: "Core"),
+                .product(name: "Router", package: "Core"),
+                .product(name: "Views", package: "Design"),
                 .product(name: "Navigator", package: "Navigator")
             ],
             path: "Sources/Product"
@@ -56,10 +56,10 @@ let package = Package(
         .target(
             name: "Transaction",
             dependencies: [
-                .product(name: "Container", package: "CorePackage"),
-                .product(name: "Networking", package: "CorePackage"),
-                .product(name: "MyNavigator", package: "CorePackage"),
-                .product(name: "Views", package: "DesignPackage"),
+                .product(name: "Container", package: "Core"),
+                .product(name: "Networking", package: "Core"),
+                .product(name: "Router", package: "Core"),
+                .product(name: "Views", package: "Design"),
                 .product(name: "Navigator", package: "Navigator"),
                 .product(name: "UnidirectionalFlow", package: "swift-unidirectional-flow")
             ],
@@ -68,10 +68,10 @@ let package = Package(
         .target(
             name: "Settings",
             dependencies: [
-                .product(name: "Container", package: "CorePackage"),
-                .product(name: "Networking", package: "CorePackage"),
-                .product(name: "MyNavigator", package: "CorePackage"),
-                .product(name: "Views", package: "DesignPackage"),
+                .product(name: "Container", package: "Core"),
+                .product(name: "Networking", package: "Core"),
+                .product(name: "Router", package: "Core"),
+                .product(name: "Views", package: "Design"),
                 .product(name: "Navigator", package: "Navigator"),
                 .product(name: "UnidirectionalFlow", package: "swift-unidirectional-flow")
             ],
