@@ -1,5 +1,5 @@
 {
-  "originHash" : "f16b624a7159b5adcc4e20e1fd4f79ab4d449ea2b6df15bf1e2c9d62714e68ae",
+  "originHash" : "a37f856971825f8ea588f9d3550c1adcfbff34b6e3eff5963459cc4fe2fbd2ff",
   "pins" : [
     {
       "identity" : "async-http-client",
@@ -26,6 +26,15 @@
       "state" : {
         "revision" : "966d89ae64cd71c652a1e981bc971de59d64f13d",
         "version" : "4.15.1"
+      }
+    },
+    {
+      "identity" : "factory",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hmlongco/Factory",
+      "state" : {
+        "revision" : "ccc898f21992ebc130bc04cc197460a5ae230bcf",
+        "version" : "2.5.3"
       }
     },
     {
@@ -62,6 +71,15 @@
       "state" : {
         "revision" : "3498e60218e6003894ff95192d756e238c01f44e",
         "version" : "4.7.1"
+      }
+    },
+    {
+      "identity" : "navigator",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hmlongco/Navigator",
+      "state" : {
+        "revision" : "7ffc45eae13cf9366e2bd4de9e10af4fa55afbc5",
+        "version" : "0.9.9"
       }
     },
     {
@@ -269,6 +287,15 @@
       "state" : {
         "revision" : "c8a44d836fe7913603e246acab7c528c2e780168",
         "version" : "1.4.0"
+      }
+    },
+    {
+      "identity" : "swift-unidirectional-flow",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mecid/swift-unidirectional-flow",
+      "state" : {
+        "revision" : "5006078e52a21fd74f6b360e4ce405d712caa53c",
+        "version" : "0.4.0"
       }
     },
     {

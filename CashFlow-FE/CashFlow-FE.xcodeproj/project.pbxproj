@@ -24,7 +24,6 @@
 /* Begin PBXFileReference section */
 		2231A8C62DDA603900932107 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		226EE9492D25C55000BC34E8 /* CashFlow-FE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CashFlow-FE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		226EE9E12D27024400BC34E8 /* Modules */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Modules; sourceTree = "<group>"; };
 		226EEA132D27171900BC34E8 /* HomeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		226EEA8F2D458E4100BC34E8 /* ProductDetailsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductDetailsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		226EEA952D458F0600BC34E8 /* TransactionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransactionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -288,7 +287,6 @@
 			isa = PBXGroup;
 			children = (
 				2231A8C62DDA603900932107 /* README.md */,
-				226EE9E12D27024400BC34E8 /* Modules */,
 				226EE9D52D26FEF300BC34E8 /* CashFlow-FE */,
 				226EE9EA2D2714E200BC34E8 /* FeatureApps */,
 				226EE9FA2D27153800BC34E8 /* Frameworks */,
